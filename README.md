@@ -2,7 +2,7 @@
 
 Dump generated with:
 
-pg_dump -U postgres -h localhost --clean --no-owner geodb > initDB.sql
+`pg_dump -U postgres -h localhost --no-owner geodb > initDB.sql`
 
 
 ## License

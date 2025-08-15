@@ -33,7 +33,7 @@ services:
   postgis:
     build: ./postgis/
     ports:
-      - "443:443"
+      - "5432:5432"
     environment:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
